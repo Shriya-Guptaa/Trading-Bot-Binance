@@ -6,12 +6,11 @@ __pycache__/
 
 # Environment variables
 .env
+.env.*
 !.env.example
 
-# Virtual environments / Conda env
+# Virtual environments
 venv/
-*.conda
-*.env
 
 # OS files
 .DS_Store
