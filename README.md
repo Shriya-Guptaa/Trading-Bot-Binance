@@ -34,12 +34,7 @@ pip install -r requirements.txt
 
 ### 4. Configure environment variables
 
-Create a `.env` file in the root directory:
-
-```env
-BINANCE_API_KEY=your_api_key_here
-BINANCE_API_SECRET=your_secret_key_here
-```
+Create a `.env` file in the root directory. It should look like  [.env.example file](https://github.com/Shriya-Guptaa/Trading-Bot-Binance/blob/5ebd7cbfa308a5a5de0234696c6b88a51c2827aa/.env.example)
 
 ---
 
@@ -90,17 +85,17 @@ trading_bot/
 │
 ├── bot/
 │   ├── __init__.py
-│   ├── client.py
-│   ├── orders.py
-│   ├── validators.py
+│   ├── client.py                     # Binance client wrapper
+│   ├── orders.py                     # order placement logic
+│   ├── validators.py                 #  input validation
 │   └── logging_config.py
 │
-├── cli.py
+├── cli.py                            # CLI entry point
+├── bot.log                           # Log Files
 ├── .env
 ├── requirements.txt
 └── README.md
 ```
-
 ---
 
 ## Logging
@@ -122,6 +117,5 @@ bot.log
 
 * This project uses `python-binance` for API interaction
 * CLI is implemented using `Typer`
-* Structured and modular code for clarity and maintainability
 ---
 
