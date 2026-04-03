@@ -15,7 +15,7 @@ The application is structured with separation of concerns:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/Shriya-Guptaa/Trading-Bot-Binance.git
 cd Trading-Bot-Binance
 ````
 
