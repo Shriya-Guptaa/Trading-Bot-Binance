@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+!.env.example
+
+# Virtual environments / Conda env
+venv/
+*.conda
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editors
+.vscode/
+.idea/
+
+# Credentials / secrets
+*.json

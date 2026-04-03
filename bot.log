@@ -1,0 +1,26 @@
+2026-04-03 18:34:05,030 - INFO - Request: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-03 18:34:05,617 - INFO - Response: {}
+2026-04-03 18:34:22,465 - INFO - Request: BTCUSDT, SELL, LIMIT, 0.001, 30000.0
+2026-04-03 18:34:22,816 - INFO - Response: {}
+2026-04-03 18:38:56,183 - INFO - Request: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-03 18:38:56,754 - INFO - Response: {}
+2026-04-03 18:40:29,038 - INFO - Request: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-03 18:40:29,619 - INFO - Response: {}
+2026-04-03 18:41:13,388 - INFO - Request: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-03 18:41:15,531 - INFO - Response: {}
+2026-04-03 18:51:17,427 - INFO - Request: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-03 18:51:18,043 - INFO - Response: {}
+2026-04-03 18:56:06,578 - INFO - Request: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-03 18:56:07,054 - ERROR - APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-04-03 18:57:03,255 - INFO - Request: BTCUSDT, BUY, MARKET, 0.002, None
+2026-04-03 18:57:03,746 - INFO - Response: {'orderId': 13020200344, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJd02be2a44bcdf903a1d58c', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0020', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1775222823699}
+2026-04-03 18:57:34,507 - INFO - Request: BTCUSDT, SELL, LIMIT, 0.002, 60000.0
+2026-04-03 18:57:34,952 - ERROR - APIError(code=-4024): Limit price can't be lower than 63319.50.
+2026-04-03 18:58:01,580 - INFO - Request: BTCUSDT, SELL, LIMIT, 0.002, 65000.0
+2026-04-03 18:58:02,072 - INFO - Response: {'orderId': 13020200938, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJb3f3dda797957dbc45f748', 'price': '65000.00', 'avgPrice': '0.00', 'origQty': '0.0020', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1775222882031}
+2026-04-03 19:00:46,963 - INFO - Request: BTCUSDT, SELL, LIMIT, 0.002, 65000.0
+2026-04-03 19:00:47,454 - INFO - Response: {'orderId': 13020202633, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ74f3adef5da6e360da3848', 'price': '65000.00', 'avgPrice': '0.00', 'origQty': '0.0020', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1775223047434}
+2026-04-03 19:03:23,031 - INFO - Request: BTCUSDT, SELL, LIMIT, 0.002, 65000.0
+2026-04-03 19:03:23,598 - INFO - Response: {'orderId': 13020204096, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ2f04d49e7ed0717c6f779b', 'price': '65000.00', 'avgPrice': '0.00', 'origQty': '0.0020', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1775223203567}
+2026-04-03 19:04:31,722 - INFO - Request: BTCUSDT, BUY, MARKET, 0.002, None
+2026-04-03 19:04:32,206 - INFO - Response: {'orderId': 13020204823, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ6ae0080e92423e1f5b0220', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0020', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1775223272183}
